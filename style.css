@@ -1,0 +1,779 @@
+header {
+    background-image: url(img/header-fourmis.jpg);
+    background-size: cover;
+    padding-bottom: 15%;
+}
+
+body {
+
+    background-color: #272727;
+}
+
+#navs_and_logo_services {
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#nav_icones_platformes {
+
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    backdrop-filter: blur(60px) saturate(100%);
+    background-color: transparent;
+    border-radius: 100px;
+    align-items: center;
+    padding-left: 10px;
+}
+
+#top_nav {
+
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding-left: 0;
+}
+
+#services {
+
+    display: flex;
+    padding: 1%;
+}
+
+.top_nav_typo {
+
+    color: rgba(255, 255, 255, 0.774);
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.nav_icones_platformes_typo {
+
+    color: white;
+    padding: 15px;
+    display: flex;
+    text-decoration: none;
+
+}
+
+.logo_play_xbox_switch_pc {
+
+    padding-right: 10px;
+}
+
+#nav_icones_platformes li:hover {
+
+    background-color: hsla(0, 0%, 100%, .15);
+    border-radius: 100px;
+}
+
+#top_nav a:hover {
+
+    color: white;
+}
+
+#search {
+    transition: transform .1s;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#search:hover {
+    transform: scale(1.05);
+}
+
+#fourmis {
+
+    color: white;
+    font-family: sans-serif;
+    padding-left: 10%;
+}
+
+#fourmis_price {
+
+    color: white;
+    font-family: sans-serif;
+    padding-left: 1%;
+    font-weight: normal;
+}
+
+#fourmis_text_all {
+    display: flex;
+}
+
+#orange_reduc {
+
+    color: white;
+    background-color: #FF5400;
+    margin-left: 10%;
+    border-radius: 5px;
+    padding: 5px;
+    height: fit-content;
+    align-self: center;
+}
+
+.title_section {
+
+    color: white;
+    font-family: sans-serif;
+    padding-left: 10%;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 1.5%;
+    width: 80%;
+    margin:auto;
+}
+
+.one {
+    grid-column: 1 / 1;
+    grid-row: 1;
+    margin-bottom: 10%;
+}
+
+.two {
+    grid-column: 2 / 2;
+    grid-row: 1;
+    margin-bottom: 10%;
+}
+
+.three {
+    grid-column: 3 /3;
+    grid-row: 1;
+    margin-bottom: 10%;
+}
+
+.minia_game{
+
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.minia_game:hover{
+
+    z-index: 3;
+    transition: transform .2s;
+    transform: scale(1.05);
+}
+
+.DLC_square{
+
+    font-size: x-small;
+    font-family: sans-serif;
+    color: #999;
+    border: #999 solid 1px;
+    padding: 1%;
+    white-space: nowrap;
+    border-radius: 3px;
+}
+
+.name_game{
+
+    color: white;
+    font-family: sans-serif;
+    font-size: 90%;
+    white-space: nowrap;
+}
+
+.price{
+
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    align-content: center;
+}
+
+.name_game_and_price{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.image_size_filling{
+
+    width: -webkit-fill-available;
+}
+
+.preco_square{
+
+    font-size: x-small;
+    font-family: sans-serif;
+    color: #478eff;
+    border: #478eff solid 1px;
+    padding: 1%;
+    white-space: nowrap;
+    border-radius: 3px;
+}
+
+.demain{
+
+    color: #478eff;
+    font-family: sans-serif;
+    font-size: x-small;
+}
+
+#esport{
+
+    display: flex;
+    justify-content: center;
+    background-color: #323232 ;
+}
+
+#right_part_esport{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#avis_esport{
+
+    color: #999;
+    text-align: center;
+    font-size: 110%;
+    font-family: sans-serif;
+}
+
+#nombre_avis_esport{
+
+    color: white;
+    background-color: #FF5400;
+    border-radius: 5px;
+    padding: 2%;
+    height: fit-content;
+    align-self: center;
+}
+
+.stars{
+
+    width: 10%;
+    align-self: center;
+
+}
+
+.stars_avis_user{
+
+    width: 30%;
+}
+
+.avis_square_user{
+
+    margin-top: 2%;
+    background-color: #323232;
+    border-radius: 10px;
+    margin-right: 2%;
+    margin-left: 2%;
+    width: 25%;
+}
+
+.user{
+
+    padding: 2%;
+    border-radius: 100px;
+    width: 25%;
+}
+
+.stars_plus_name_game{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.all_avis{
+
+    display: flex;
+}
+
+.image_plus_name_and_stars{
+
+    display: flex;
+}
+
+.avis_esport_users{
+
+    color: #999;
+    font-family: sans-serif;
+    font-size: small;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.avis_timer{
+
+    color: white;
+    font-family: sans-serif;
+    font-size: x-small;
+    padding-left: 5%;
+}
+
+#sims_banniere{
+
+    background-image: url(img/baniere-sims.jpg);
+    padding-bottom: 15%;
+    background-size: cover;
+}
+
+#sims{
+
+    color: white;
+    font-family: sans-serif;
+    padding-left: 10%;
+    padding-top: 15%;
+}
+
+.user_plus_thumb{
+
+    display: flex;
+    justify-content: center;
+}
+
+.thumb{
+
+    height: fit-content;
+    align-self: center;
+}
+
+.avis_blue_users{
+
+    color: #999;
+    font-family: sans-serif;
+    text-align: left;
+    padding: 5%;
+}
+
+.image_avis_blue_users{
+
+    width: 100%;
+}
+
+.image_avis_blue_users:hover{
+
+    transition: transform .3s;
+    transform: scale(1.05);
+}
+
+.blue_user_pp{
+
+    border-radius: 100px;
+    width: 20%;
+}
+
+#fire_and_water_character{
+
+    display: flex;
+    margin-top: 2%;
+}
+
+#cases_fire_water_man{
+
+    background-color: #323232;
+    margin-top: 1.5px;
+}
+
+#dessin_man_fire_water{
+
+    width: 35%;
+}
+
+.actu_clicable_link{
+
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    padding-left: 5%;
+}
+
+.actu_clicable_link:hover{
+
+text-decoration: underline;
+}
+
+.actu_section{
+
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+    border-bottom: 1px solid hsla(0, 0%, 100%, .1);
+    margin-bottom: 1%;
+    padding-bottom: 1%;
+}
+
+.image_actu{
+
+    width: 25%;
+    border-radius: 10px;
+}
+
+.actu_section_larger{
+
+    display: flex;
+    justify-content: center;
+}
+
+.game_categories{
+
+    border-radius: 10px;
+    width: 90%;
+}
+
+.game_categories:hover{
+
+    transition: transform .3s;
+    transform: scale(1.05);
+}
+
+#extention_banniere{
+
+    background-image: url(img/extention-instant-gaming-pub.png);
+    padding-bottom: 15%;
+    background-size: cover;
+}
+
+#extention_subtitle{
+
+    font-family: sans-serif;
+    color: white;
+    padding-left: 10%;
+}
+
+#extention_scriptures{
+
+    display: flex;
+    flex-direction: column;
+}
+
+#download_extension_button{
+
+    color: white;
+    background-color: #FF5400;
+    border-radius: 5px;
+    padding: 1%;
+    height: fit-content;
+    align-self: start;
+    margin-left: 10%;
+    font-family: sans-serif;
+}
+
+#download_extension_button:hover{
+
+    transition: transform .5s;
+    transform: scale(1.05);
+}
+
+.price_reduction{
+
+    color: #999;
+    font-family: sans-serif;
+    font-size: 90%;
+    white-space: nowrap;
+    padding-left: 25px;   
+}
+
+.week_promotion_timer{
+
+    font-family: sans-serif;
+    font-size: medium;
+    color: #FF5400;
+    background-color: black;
+    margin: 0;
+    padding: 5%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.reduction_all_grid{
+
+    color: white;
+    background-color: #FF5400;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    bottom: 25px;
+    z-index: 2;
+    font-family: sans-serif;
+}
+
+#do_not_miss_promo{
+
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#do_not_miss_promo_subtitle{
+
+    color: #999;
+    font-family: sans-serif;
+    font-size: medium;
+    text-align: center;
+}
+
+#singn_in_button{
+
+    color: white;
+    background-color: #FF5400;
+    border-radius: 5px;
+    padding: 1%;
+    font-family: sans-serif;
+}
+
+#footer_first_part{
+
+    background-color: #323232;
+    padding: 50px;
+    align-content: center;
+}
+
+#paper_plane{
+
+    display: flex;
+    justify-content: center;
+}
+
+#singn_in_button_position_center{
+
+    display: flex;
+    justify-content: center;
+}
+
+#trustpilot_img{
+
+    width: 75%;
+}
+
+#footer_second_part{
+
+    background-color: #101010;
+}
+
+.footer_links{
+
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: small;
+    color: #fff;
+}
+
+.footer_links:hover{
+
+    color: #ff5400;
+}
+
+#column_footer_things{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_link_img_and_link{
+
+    display: flex;
+}
+
+.icone_link_footer{
+
+    align-content: center;
+    margin-right: 10px;
+}
+
+#reseaux_sociaux{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#discord{
+
+    background-color: rgba(88, 101, 242, .2);
+    border-radius: 100%;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+#discord:hover{
+
+    transition: transform .1s;
+    transform: scale(1.15);
+}
+
+#x{
+
+    border-radius: 100%;
+    padding: 10px;
+    background-color: rgba(29, 155, 240, .2);
+    margin-right: 15px;
+}
+
+#x:hover{
+
+    transition: transform .1s;
+    transform: scale(1.15);
+}
+
+#insta{
+
+    border-radius: 100%;
+    padding: 10px;
+    background-color: hsla(16, 35%, 60%, .2);
+    margin-right: 15px;
+}
+
+#insta:hover{
+
+    transition: transform .1s;
+    transform: scale(1.15);
+}
+
+#facebook{
+
+    border-radius: 100%;
+    padding: 10px;
+    background-color: rgba(24, 119, 242, .2);
+    margin-right: 15px;
+}
+
+#facebook:hover{
+
+    transition: transform .1s;
+    transform: scale(1.15);
+}
+
+#youtube{
+
+    border-radius: 100%;
+    padding: 10px;
+    background-color: rgba(226,43,38,.2);
+    margin-right: 15px;
+}
+
+#youtube:hover{
+
+    transition: transform .1s;
+    transform: scale(1.15);
+}
+
+#twitch{
+
+    border-radius: 100%;
+    padding: 10px;
+    background-color: rgba(152,97,255,.2);
+    margin-right: 15px;
+}
+
+#twitch:hover{
+
+    transition: transform .1s;
+    transform: scale(1.15);
+}
+
+#puzzle{
+
+    border-radius: 100%;
+    padding: 10px;
+    background-color: rgba(255,84,0,.2);
+    margin-right: 15px;
+}
+
+#puzzle:hover{
+
+    transition: transform .1s;
+    transform: scale(1.15);
+}
+
+#logos_reseau_sociaux{
+
+    display: flex;
+}
+
+#stores{
+
+    display: flex;
+    justify-content: end;
+}
+
+#border_bottom{
+
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: solid 1px #272727;
+    margin: 50px;
+    margin-bottom: 25px;
+}
+
+.stores_contouring{
+
+    border: solid 1px hsla(0, 0%, 100%, .2);
+    border-radius: 5px;
+    margin-left: 3%;
+}
+
+.stores_contouring:hover{
+
+    transition: transform .5s;
+    transform: scale(1.05);
+}
+
+.footer_copyright{
+
+    font-family: sans-serif;
+    font-size: small;
+    color: #fff;
+}
+
+.icone_language_etc_and_name{
+
+    display: flex;
+    padding-right: 10px;
+}
+
+#right_part_copyright_footer{
+
+    display: flex;
+}
+
+#footer_last_part{
+
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.image_border_left{
+
+    border-left: solid 1px hsla(0, 0%, 100%, .2);
+    padding-left: 10px;
+}
+
+#annimation_flash_promos{
+
+    text-align: center;
+    padding: 150px;
+    font-family: sans-serif;
+    color: white;
+    font-size: 30px;
+    background-image: url(img/chantier-bandes.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center 40%;
+    animation: blink 1s linear infinite;
+    border-radius: 10px;
+}
+
+@keyframes blink{
+
+    50%{
+        opacity: 0;
+    }
+}
